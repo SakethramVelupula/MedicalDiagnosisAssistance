@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Diagnosis Assistant</title>
+    <link rel="stylesheet" href="/static/styless.css">
+    <script src="/static/design.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Medical Diagnosis Assistant</h1>
+        <form id="symptomForm">
+            <label for="symptomInput">Enter Symptom:</label>
+            <input type="text" id="symptomInput" placeholder="e.g., headache">
+            <button type="submit">Diagnose</button>
+        </form>
+        <div id="result">
+            <h2>Possible Diseases:</h2>
+            <ul id="diseaseList"></ul>
+        </div>
+    </div>
+</body>
+</html>
